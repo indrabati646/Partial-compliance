@@ -1,5 +1,6 @@
 #Metropolis steps for updating the parameters for the marginals of the
 #observed compliances
+# Some ideas have been borrowed from Kim et. al (2019).
 
 #log-likelihood
 loglik <- function(Y, X,w, beta0,beta,sigma,Z){
