@@ -10,8 +10,8 @@ library(MASS)
 library(mvtnorm)
 library(truncnorm)
 
-source("/Users/indrabatibhattacharya/Documents/biom_code/metropolis_For_D.R")
-source("/Users/indrabatibhattacharya/Documents/biom_code/metropolis_For_R.R")
+source("metropolis_For_D.R")
+source("metropolis_For_R.R")
 
 bnp_mod <- function(data){
   
