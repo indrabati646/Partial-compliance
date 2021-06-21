@@ -1,6 +1,6 @@
 # Fitting the non-parametric Bayesian model for 200 datasets in parallel for Example 3
-source("/Users/indrabatibhattacharya/Documents/biom_code/bnp_model_Example3.R")
-source("/Users/indrabatibhattacharya/Documents/biom_code/Simulate_Example3.R")
+source("bnp_model_Example3.R")
+source("Simulate_Example3.R")
 
 library(doParallel)  
 no_cores <- detectCores() - 1  
