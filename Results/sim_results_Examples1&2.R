@@ -1,7 +1,7 @@
-# Fitting the non-parametric Bayesian model for 200 datasets in parallel for Examples 1 and 2
+# Fitting the non-parametric Bayesian model for 200 datasets in parallel for Examples 1 and 2 and computing the average bias and standard errors
 
-source("/Users/indrabatibhattacharya/Documents/biom_code/bnp_model_Examples1&2.R")
-source("/Users/indrabatibhattacharya/Documents/biom_code/Simulate_Examples1&2.R")
+source("bnp_model_Examples1&2.R")
+source("Simulate_Examples1&2.R")
 
 library(doParallel)  
 no_cores <- detectCores() - 1  
