@@ -1,8 +1,8 @@
 # Obtaining the EDTRs for Examples 1 and 2
 
-source("/Users/indrabatibhattacharya/Documents/biom_code/bnp_model_Examples1&2.R")
-source("/Users/indrabatibhattacharya/Documents/biom_code/Simulate_Examples1&2.R")
-source("/Users/indrabatibhattacharya/Documents/biom_code/Response_probability.R")
+source("bnp_model_Examples1&2.R")
+source("Simulate_Examples1&2.R")
+source("res_prob_Examples1&2.R")
 
 edtr_fun <- function(data){
   results_list <- bnp_mod(data)
