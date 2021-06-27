@@ -1,7 +1,7 @@
 #Gives the Stage-1 response probability for Examples 1 and 2
 # We use the 'nimble' package in R which lets run BUGS model from R
 
-source("/Users/indrabatibhattacharya/Documents/biom_code/bnp_model_Examples1&2.R")
+source("bnp_model_Examples1&2.R")
 
 library(nimble)
 
